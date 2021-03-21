@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @Kaelesty
+- 👀 I’m interested in Python!
+- 🌱 I’m currently learning Flask!
+- 💞️ I am't looking to collaborate on anyone(
+- 📫 How to reach me blue_russian_social_network/kayriskaelesty
