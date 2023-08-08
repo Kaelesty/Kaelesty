@@ -23,7 +23,7 @@ class GithubProfile(): InternetProfile() {
     )
 
     fun getStudiedNow(): Technology {
-        return Kotlin.Coroutines
+        return Android.Services
     }
 
     fun sayHello() {
