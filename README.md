@@ -23,7 +23,7 @@ class GithubProfile(): InternetProfile() {
     )
 
     fun getStudiedNow(): Technology {
-        return Android.Services
+        return DependencyInjection.Dagger2
     }
 
     fun sayHello() {
