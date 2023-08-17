@@ -13,13 +13,13 @@ class GithubProfile(): InternetProfile() {
     )
 
     val technologyStack = mapOf(
-        "Android Development" to "Jetpack, View/Data Binding, Fragments, RecyclerView, Room, Retrofit, LiveData, RxJava3",
+        "Android Development" to "Jetpack, View/Data Binding, Fragments, RecyclerView, Room, Retrofit, LiveData, RxJava3, Dagger2, Coroutines",
         "Backend" to "Flask, SQLite, SqlAlchemy, Firebase (Realtime database, Auth)"
         "GameDev" to "UnityEngine, Pygame"
     )
 
     val architecturePatterns = listOf(
-        "MVVM", "Clean Architecture"
+        "MVVM", "Clean Architecture, Dependency Injection"
     )
 
     fun getStudiedNow(): Technology {
