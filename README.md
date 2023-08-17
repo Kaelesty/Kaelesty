@@ -9,7 +9,7 @@ class GithubProfile(): InternetProfile() {
     )
 
     val programmingLanguages = listOf(
-        Kotlin::class, Python::class, Java:class, CSharp:class, Cpp:class // Descending by skills
+        Kotlin::class, Python::class, Java:class, CSharp::class, Cpp::class // Descending by skills
     )
 
     val technologyStack = mapOf(
@@ -23,7 +23,7 @@ class GithubProfile(): InternetProfile() {
     )
 
     fun getStudiedNow(): Technology {
-        return DependencyInjection.Dagger2
+        return Android.BroadcastReceivers
     }
 
     fun sayHello() {
