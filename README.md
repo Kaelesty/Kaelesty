@@ -9,12 +9,15 @@ class GithubProfile(): InternetProfile() {
     )
 
     val programmingLanguages = listOf(
-        Kotlin::class, Python::class, Java:class, CSharp::class, Cpp::class // Descending by skills
+        Kotlin::class, Python::class, Java::class, CSharp::class, Cpp::class // Descending by skills
     )
 
     val technologyStack = mapOf(
-        "Android Development" to "Jetpack, View/Data Binding, Fragments, RecyclerView, Room, Retrofit, LiveData, RxJava3, Dagger2, Coroutines",
-        "Backend" to "Flask, SQLite, SqlAlchemy, Firebase (Realtime database, Auth)"
+        "Android Development" to
+                "Jetpack, View/Data Binding, Fragments, RecyclerView, Room, " +
+				"Retrofit, LiveData, RxJava3, Dagger2, Coroutines, " +
+				"BroadcastReceivers, ContentProviders",
+        "Backend" to "Flask, SQLite, SqlAlchemy, Firebase (Realtime database, Auth)",
         "GameDev" to "UnityEngine, Pygame"
     )
 
@@ -23,7 +26,7 @@ class GithubProfile(): InternetProfile() {
     )
 
     fun getStudiedNow(): Technology {
-        return Android.BroadcastReceivers
+        return Kotlin.Coroutines.Flow
     }
 
     fun sayHello() {
