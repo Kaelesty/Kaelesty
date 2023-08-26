@@ -25,8 +25,8 @@ class GithubProfile(): InternetProfile() {
         "MVVM", "Clean Architecture, Dependency Injection"
     )
 
-    fun getStudiedNow(): Technology {
-        return Kotlin.Coroutines.Flow
+    fun getStudiedNow(): List<Learnable> {
+        return listOf( Kotlin.Coroutines.Flow, ComputerScience.Algorithms,  ComputerScience.DataStructures )
     }
 
     fun sayHello() {
