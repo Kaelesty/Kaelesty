@@ -26,7 +26,7 @@ class GithubProfile(): InternetProfile() {
     )
 
     fun getStudiedNow(): List<Learnable> {
-        return listOf( Kotlin.Coroutines.Flow, ComputerScience.Algorithms,  ComputerScience.DataStructures )
+        return listOf( Android.JetpackCompose, ComputerScience.Algorithms,  ComputerScience.DataStructures )
     }
 
     fun sayHello() {
