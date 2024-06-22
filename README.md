@@ -14,19 +14,18 @@ class GithubProfile(): InternetProfile() {
 
     val technologyStack = mapOf(
         "Android Development" to
-                "Jetpack, View/Data Binding, Fragments, RecyclerView, Room, " +
-				"Retrofit, LiveData, RxJava3, Dagger2, Coroutines, " +
-				"BroadcastReceivers, ContentProviders",
-        "Backend" to "Flask, SQLite, SqlAlchemy, Firebase (Realtime database, Auth)",
+                "Jetpack Compose, Jetpack Navigation, Decompose, MVIKotlin, Room, " +
+				"Retrofit, Dagger, Coroutines",
+        "Backend" to "Ktor, Exposed, Flask, SqlAlchemy, Firebase",
         "GameDev" to "UnityEngine, Pygame"
     )
 
     val architecturePatterns = listOf(
-        "MVVM", "Clean Architecture, Dependency Injection"
+        "MVVM", "MVI", "Clean Architecture", "Dependency Injection"
     )
 
     fun getStudiedNow(): List<Learnable> {
-        return listOf( Android.JetpackCompose, ComputerScience.Algorithms,  ComputerScience.DataStructures )
+        return listOf( Kotlin.Multiplatform, Backend.Ktor, ComputerScience.Algorithms,  ComputerScience.DataStructures )
     }
 
     fun sayHello() {
